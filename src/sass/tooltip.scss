@@ -1,0 +1,27 @@
+/* Tooltips */
+.tooltip {
+    position: absolute;
+    z-index: 9001;
+    background: #000;
+    color: #FFF;
+    padding: 3px 5px;
+    max-width: 200px;
+    cursor: default;
+    line-height: 1.2;
+}
+    .tooltip [class*='arrow-'] {
+        position: absolute;
+        -webkit-transform-origin: 0% 100%;
+        -ms-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+    }
+    .tooltip .arrow-left {
+        margin-top: -12px;
+    }
+    .tooltip .arrow-right {
+        margin-top: -12px;
+    }
+    .tooltip .arrow-up {
+    }
+    .tooltip .arrow-down {
+    }

@@ -1,0 +1,29 @@
+{
+  "name": "DenyTooltip",
+  "version": "0.0.1",
+  "authors": [
+    "Shauvon McGill <smcgill@denyconformity.com>"
+  ],
+  "description": "The tooltip control used in the Deny UI framework.",
+  "main": "dist/tooltip.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "tooltip",
+    "ui",
+    "jquery"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.denyconformity.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~3.1.0"
+  }
+}
